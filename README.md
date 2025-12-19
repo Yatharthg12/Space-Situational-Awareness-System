@@ -67,7 +67,8 @@ A 3D interactive orbital visualization is generated showing:
 - Operational satellites (green)
 - Debris fragments (orange)
 
-Output: `outputs/orbits.html`
+Interactive visualization: `outputs/orbits.html`  
+Downloadable report: `outputs/SSA_Report.pdf`
 
 ---
 
@@ -95,5 +96,6 @@ To validate the detection pipeline, conjunction thresholds were temporarily rela
 ## Author
 **Yatharth Garg**    
 Space Systems & Defense-Oriented Software
+
 
 **Note that this project is for academic and research purposes only.It uses publicly available orbital data and does not model real-world maneuvering or weapon systems.**
