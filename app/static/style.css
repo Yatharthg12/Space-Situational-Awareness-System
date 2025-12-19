@@ -1,0 +1,69 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #0f172a;
+    color: #e5e7eb;
+}
+
+.container {
+    width: 92%;
+    margin: auto;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+.summary {
+    display: flex;
+    gap: 30px;
+    margin: 20px 0;
+}
+
+.summary div {
+    background: #020617;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.orbit-frame {
+    width: 100%;
+    height: 520px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #020617;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #1e293b;
+}
+
+tr:nth-child(even) {
+    background: #020617;
+}
+
+tr:nth-child(odd) {
+    background: #020617;
+}
+
+.status-box {
+    background: linear-gradient(135deg, #020617, #020617);
+    border-left: 6px solid #22c55e;
+    padding: 15px 25px;
+    margin: 20px 0;
+    border-radius: 8px;
+}

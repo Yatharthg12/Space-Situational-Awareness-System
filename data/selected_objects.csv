@@ -1,0 +1,48 @@
+name,type,source
+ISS (ZARYA),station,stations
+CSS (TIANHE),station,stations
+
+HST,satellite,active
+TERRA,satellite,active
+AQUA,satellite,active
+LANDSAT 7,satellite,active
+LANDSAT 8,satellite,active
+NOAA 18,satellite,active
+NOAA 19,satellite,active
+METOP-A,satellite,active
+METOP-B,satellite,active
+METOP-C,satellite,active
+SWIFT,satellite,active
+CXO,satellite,active
+XMM-NEWTON,satellite,active
+PROBA-1,satellite,active
+SORCE,satellite,active
+TIMED,satellite,active
+ODIN,satellite,active
+CORIOLIS,satellite,active
+AJISAI (EGS),satellite,active
+LAGEOS 1,satellite,active
+LAGEOS 2,satellite,active
+STARLETTE,satellite,active
+STELLA,satellite,active
+
+COSMOS 2251 DEB,satellite_debris,debris
+COSMOS 2251 DEB,satellite_debris,debris
+COSMOS 2251 DEB,satellite_debris,debris
+COSMOS 2251 DEB,satellite_debris,debris
+COSMOS 2251 DEB,satellite_debris,debris
+COSMOS 2251 DEB,satellite_debris,debris
+COSMOS 2251 DEB,satellite_debris,debris
+COSMOS 2251 DEB,satellite_debris,debris
+COSMOS 2251 DEB,satellite_debris,debris
+COSMOS 2251 DEB,satellite_debris,debris
+COSMOS 2251 DEB,satellite_debris,debris
+COSMOS 2251 DEB,satellite_debris,debris
+COSMOS 2251 DEB,satellite_debris,debris
+COSMOS 2251 DEB,satellite_debris,debris
+COSMOS 2251 DEB,satellite_debris,debris
+COSMOS 2251 DEB,satellite_debris,debris
+COSMOS 2251 DEB,satellite_debris,debris
+COSMOS 2251 DEB,satellite_debris,debris
+COSMOS 2251 DEB,satellite_debris,debris
+COSMOS 2251 DEB,satellite_debris,debris

@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Space Situational Awareness Dashboard</h1>
+
+{% if total_events == 0 %}
+<p style="opacity:0.8;">
+No conjunctions below the 10 km threshold were detected.  
+This indicates adequate spatial separation for the current monitoring window.
+</p>
+{% endif %}
+
+<div class="summary">
+    <div>Total Conjunction Events: <b>{{ total_events }}</b></div>
+    <div>High Risk: <b>{{ high_risk }}</b></div>
+    <div>Medium Risk: <b>{{ medium_risk }}</b></div>
+</div>
+
+<div class="status-box">
+    <h2>System Status: NOMINAL</h2>
+    <p>No high-risk conjunctions detected in the monitoring window.</p>
+    <p>Objects monitored: 50 | Time horizon: 48 hours</p>
+</div>
+
+<div class="legend">
+    <p><b>Legend:</b></p>
+    <p>🔴 Stations | 🟢 Active Satellites | 🟠 Orbital Debris</p>
+    <p>Visualization shown in Earth-Centered Inertial (ECI) frame.</p>
+</div>
+
+<h2>Orbital Overview</h2>
+<iframe src="/outputs/orbits.html" class="orbit-frame"></iframe>
+
+<h2>Conjunction Events</h2>
+<table>
+    <tr>
+        <th>Object 1</th>
+        <th>Object 2</th>
+        <th>Distance (km)</th>
+        <th>TCA</th>
+        <th>Risk</th>
+    </tr>
+    {% for e in events %}
+    <tr>
+        <td>{{ e.object_1 }}</td>
+        <td>{{ e.object_2 }}</td>
+        <td>{{ e.distance_km }}</td>
+        <td>{{ e.tca }}</td>
+        <td>{{ e.risk }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}
